@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="result.html" method="get">
+        <h2>let us know how we can improve freecodecamp.</h2>
+        <div class="box">
+            <div>
+                <label for="name">Name</label>
+                <input type="name" id="name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="date" id="age" required>
+            </div>
+        </div>
+        
+        <div class="box2">
+            <label for="post">Which options describe your role?</label>
+            <select name="Which options describe your role?" id="post">
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time lerner</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="choose">
+            <p>How likely is that you recomend freecodecamp to friend?</p>
+            <div>
+                <div>
+                    <label for="definitly">Definitly</label>
+                    <input type="radio" name="choose" id="definitly" >
+                </div>
+                <div>
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" name="choose" id="maybe" >
+                </div>
+                <div>
+                    <label for="not_sure">Not Sure</label>
+                    <input type="radio" name="choose" id="not_sure" >
+                </div>
+            </div>
+            
+        </div>
+        <div class="fcc">
+            <label for="like">What do you like most in FCC?</label>
+            <select name="FCC" id="like">
+                <option value="community">Community</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <div>
+                <p>Things that should be improved in future.</p>
+                <p>(Click all that apply):</p>
+            </div>
+            <div class="check">
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+                <div>
+                    <label for="data">Data</label>
+                    <input type="checkbox" id="data">
+                </div>
+            </div>
+            
+        </div>
+        <div class="mes">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"   placeholder="Message"></textarea>
+        </div>
+        <div class="but">
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
